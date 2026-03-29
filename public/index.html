@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>@dpwoffc | News</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background: #f5f5f5;
+}
+
+/* HEADER */
+header {
+    width: 100%;
+    height: 70px;
+    background: #02a28f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-container {
+    width: 90%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+/* RIGHT MENU (INI KUNCI) */
+.right-menu {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+/* NAV MENU */
+.nav-menu {
+    display: flex;
+    gap: 20px;
+}
+
+/* SEARCH */
+.search-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.search-icon {
+    font-size: 18px;
+    cursor: pointer;
+    color: white;
+}
+
+.search-box input {
+    position: absolute;
+    right: 0;
+    width: 0;
+    opacity: 0;
+    padding: 6px 10px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    transition: 0.3s;
+}
+
+.search-box.active input {
+    width: 150px;
+    opacity: 1;
+    background: white;
+}
+
+/* BURGER */
+.burger {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+/* MAIN */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+}
+
+.hero {
+    background: #ddd;
+    height: 350px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.hero-populer {
+    background: #ddd;
+    height: 100px;
+    border-radius: 10px;
+    padding: 20px;
+    text-align:end
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.posts {
+    grid-column: span 2;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.post {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.thumbnail {
+    height: 120px;
+    background: #ccc;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* MOBILE */
+@media(max-width: 768px) {
+
+    .burger {
+        display: block;
+        color: white;
+    }
+
+    .nav-menu {
+        position: absolute;
+        top: 70px;
+        right: 0;
+        background: #02a28f;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        padding: 20px 0;
+        display: none;
+    }
+
+    .nav-menu.active {
+        display: flex;
+    }
+
+    .container {
+        grid-template-columns: 1fr;
+    }
+
+    .posts {
+        grid-column: span 1;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="nav-container">
+    <h1>Kang Tutor</h1>
+
+    <div class="right-menu">
+
+        <div class="nav-menu" id="navMenu">
+            <p>Beranda</p>
+            <p>Tutorial</p>
+            <p>Pemrograman</p>
+            <p>Teknologi</p>
+        </div>
+
+        <!-- SEARCH ICON -->
+        <div class="search-box">
+            <div class="search-icon" onclick="toggleSearch()"></div>
+            <input type="text" placeholder="Search...">
+        </div>
+
+        <!-- BURGER -->
+        <div class="burger" onclick="toggleMenu()">☰</div>
+
+    </div>
+</div>
+</header>
+
+<div class="container">
+
+    <div class="hero">
+        <h2></h2>
+        <p></p>
+    </div>
+
+    <div class="sidebar">
+        <div class="card">
+            <h3>Paling Populer</h3>
+            <div class="hero-populer">
+                <p>Artikel 1</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <h3>Kategori</h3>
+            <p>Label 1</p>
+            <p>Label 2</p>
+        </div>
+    </div>
+
+    <div class="posts">
+        <div class="post">
+            <div class="thumbnail"></div>
+            <h4>Judul Artikel</h4>
+            <p>Deskripsi singkat artikel...</p>
+        </div>
+
+        <div class="post">
+            <div class="thumbnail"></div>
+            <h4>Judul Artikel</h4>
+            <p>Deskripsi singkat artikel...</p>
+        </div>
+
+        <div class="post">
+            <div class="thumbnail"></div>
+            <h4>Judul Artikel</h4>
+            <p>Deskripsi singkat artikel...</p>
+        </div>
+    </div>
+
+</div>
+
+<script>
+function toggleMenu() {
+    const menu = document.getElementById("navMenu");
+    menu.classList.toggle("active");
+}
+
+function toggleSearch() {
+    const box = document.querySelector(".search-box");
+    box.classList.toggle("active");
+}
+</script>
+
+</body>
+</html>

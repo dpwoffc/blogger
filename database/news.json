@@ -1,0 +1,102 @@
+[
+    {
+        "id": "1",
+        "author": [
+            {
+                "username":"user1",
+                "email":"dpwoffc@gmail.com"
+            }
+        ],
+        "news": [
+            {
+                "title": "perkembangan ai",
+                "description": "Perkembangan ai dalam kehidupan sehari-hari",
+                "date": "02-02-2026",
+                "category": "teknologi",
+                "mediaPath": [
+                    {
+                        "1": "./public/database/user1/img/user1-news1-media1.jpg",
+                        "2": "./public/database/user1/img/user1-news1-media2.jpg"
+                    }
+                ],
+                "txtFile": "./public/database/user1/news/teknologi/1.txt",
+                "pageEndpoint": "/user1/1"
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "author": [
+            {
+                "username":"user2",
+                "email":"dpwoffc@ymail.com"
+            }
+        ],
+        "news": [
+            {
+                "title": "perkembangan teknologi",
+                "description": "Perkembangan teknologi dalam kehidupan sehari-hari",
+                "date": "02-02-2026",
+                "category": "teknologi",
+                "mediaPath": [
+                    {
+                        "1": "./public/database/user2/img/user2-news1-media1.jpg",
+                        "2": "./public/database/user2/img/user2-news1-media2.jpg"
+                    }
+                ],
+                "txtFile": "./public/database/user2/news/teknologi/1.txt",
+                "pageEndpoint": "/user2/2"
+            }
+        ]
+    },
+    {
+        "id": "3",
+        "author": [
+            {
+                "username":"user1",
+                "email":"dpwoffc@gmail.com"
+            }
+        ],
+        "news": [
+            {
+                "title": "perkembangan ai",
+                "description": "Perkembangan ai dalam kehidupan sehari-hari",
+                "date": "02-02-2026",
+                "category": "teknologi",
+                "mediaPath": [
+                    {
+                        "1": "./public/database/user1/img/user1-news1-media1.jpg",
+                        "2": "./public/database/user1/img/user1-news1-media2.jpg"
+                    }
+                ],
+                "txtFile": "./public/database/user1/news/teknologi/1.txt",
+                "pageEndpoint": "/user1/1"
+            }
+        ]
+    },
+    {
+        "id": "4",
+        "author": [
+            {
+                "username":"user2",
+                "email":"dpwoffc@ymail.com"
+            }
+        ],
+        "news": [
+            {
+                "title": "perkembangan teknologi",
+                "description": "Perkembangan teknologi dalam kehidupan sehari-hari",
+                "date": "02-02-2026",
+                "category": "teknologi",
+                "mediaPath": [
+                    {
+                        "1": "./public/database/user2/img/user2-news1-media1.jpg",
+                        "2": "./public/database/user2/img/user2-news1-media2.jpg"
+                    }
+                ],
+                "txtFile": "./public/database/user2/news/teknologi/1.txt",
+                "pageEndpoint": "/user2/2"
+            }
+        ]
+    }
+]

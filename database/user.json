@@ -1,0 +1,24 @@
+[
+  {
+    "username": "user1",
+    "email": "dpwoffc@gmail.com",
+    "password": "dpwoffc",
+    "role": "user",
+    "database": "./public/database/user1",
+    "teknologi": "./public/database/user1/teknologi",
+    "tutorial": "./public/database/user1/tutorial",
+    "pemograman": "./public/database/user1/pemograman",
+    "cookies": "247040bb-dd24-4848-a3ee-4d0b117e44d6"
+  },
+  {
+    "username": "user2",
+    "email": "dpwoffc@ymail.com",
+    "password": "dpwoffc",
+    "role": "user",
+    "database": "./public/database/user2",
+    "teknologi": "./public/database/user2/teknologi",
+    "tutorial": "./public/database/user2/tutorial",
+    "pemograman": "./public/database/user2/pemograman",
+    "cookies": ""
+  }
+]

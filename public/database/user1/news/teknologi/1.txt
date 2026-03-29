@@ -1,0 +1,7 @@
+<b>Perkembangan AI dalam Kehidupan Sehari-hari</b>
+<img src="../../img/user1-news1-media1.jpg"></img>
+<p>Artificial Intelligence (AI) atau kecerdasan buatan telah menjadi bagian penting dalam kehidupan modern. Mulai dari asisten virtual seperti Google Assistant hingga rekomendasi konten di media sosial, AI bekerja di balik layar untuk mempermudah aktivitas manusia.</p>
+<p>Dalam dunia pendidikan, AI membantu proses pembelajaran menjadi lebih personal. Siswa dapat belajar sesuai dengan kecepatan dan gaya masing-masing melalui sistem berbasis AI.</p>
+<p>Di bidang kesehatan, AI digunakan untuk menganalisis data medis, membantu diagnosis penyakit, hingga mendukung penelitian obat baru. Hal ini membuat layanan kesehatan menjadi lebih cepat dan akurat.</p>
+<p>Namun, perkembangan AI juga menimbulkan tantangan, seperti isu privasi data dan potensi penggantian tenaga kerja manusia. Oleh karena itu, penting untuk menggunakan teknologi ini secara bijak.</p>
+<p>Kesimpulannya, AI adalah t eknologi yang sangat bermanfaat jika digunakan dengan tepat, dan akan terus berkembang di masa depan.</p>
